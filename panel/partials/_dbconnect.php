@@ -1,19 +1,11 @@
 <?php
-// $server = "localhost";
-// $username = "root";
-// $password = "-QER4skRz_NbYbu";
-// $database = "panelDB";
-
-$server = "localhost";
-$username = "adbizmedia";
+$server = "127.0.0.1";
+$username = "adbizzmedia";
 $password = "Password@2930";
-$database = "panelDB";
+$database = "u504804622_panelDB";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 if (!$conn){
-//     echo "success";
-// }
-// else{
     die("Error". mysqli_connect_error());
 }
 
