@@ -5,8 +5,8 @@
 // $database = "panelDB";
 
 $server = "localhost";
-$username = "root";
-$password = "";
+$username = "adbizmedia";
+$password = "Password@2930";
 $database = "panelDB";
 
 $conn = mysqli_connect($server, $username, $password, $database);
