@@ -23,4 +23,4 @@ jobs:
           server-dir: ${{ secrets.FTP_REMOTE_DIR }}/
           exclude: |
             **/_dbconnect.php
-          dangerous-clean-slate: true
+          #dangerous-clean-slate: true
